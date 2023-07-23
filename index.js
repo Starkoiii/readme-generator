@@ -58,7 +58,7 @@ function questions() {
       );
 }
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
   fs.writeFile('README.md', `${data}\n`, (err) =>
   err ? console.log(err) : console.log('Success!'))
 }
